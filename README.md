@@ -60,7 +60,7 @@ The design was verified using a self-checking testbench covering:
 - Full and empty boundary conditions
 - Overflow and underflow protection checks
 
-Simulated using **[ModelSim / Vivado / Icarus Verilog / QuestaSim]** *(update with the tool you used)*.
+Simulated using Vivado & Edaplayground.
 
 ## 🚀 How to Run
 
@@ -71,8 +71,6 @@ vvp fifo_sim
 gtkwave sim/waveform.vcd
 ```
 
-*(Update commands based on the simulator you used.)*
-
 ## 📊 Results
 
 - Verified correct functionality across all boundary and simultaneous read-write cases
@@ -82,8 +80,8 @@ gtkwave sim/waveform.vcd
 ## 🛠️ Tools Used
 
 - Verilog HDL
-- [Simulation Tool Name]
-- [FPGA Board Name, if synthesized]
+- Vivado
+- Edaplayground
 
 ## 📖 Future Improvements
 

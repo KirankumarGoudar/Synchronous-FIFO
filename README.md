@@ -73,9 +73,8 @@ gtkwave sim/waveform.vcd
 
 ## 📊 Results
 
-- Verified correct functionality across all boundary and simultaneous read-write cases
-- No data loss or corruption observed during simulation
-- *(Add clock frequency, FPGA synthesis results, or timing details if available)*
+- Verified correct functionality across all boundary and simultaneous read-write cases.
+- No data loss or corruption observed during simulation.
 
 ## 🛠️ Tools Used
 
